@@ -19,7 +19,7 @@ android {
         libraryVariants.all { variant ->
 
             variant.outputs.all { output ->
-                outputFileName = "release/" + ("SDKtest1.aar")
+                outputFileName = "release/" + ("BioMatch_SDK.aar")
             }
         }
         ndk {

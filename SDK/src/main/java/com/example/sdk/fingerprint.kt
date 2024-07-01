@@ -53,7 +53,6 @@ class fingerprint : Fragment() {
         var btmp = BitmapFactory.decodeByteArray(data, 0, data.size)
         return btmp
     }
-
     fun ml_model(btmp: Bitmap): FloatArray {
         val imageSize = 200
         val py = Python.getInstance()

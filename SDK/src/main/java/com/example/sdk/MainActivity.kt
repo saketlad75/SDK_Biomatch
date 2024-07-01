@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
     }
+}
+
 //    fun processImage(key: Int, greymap: HashMap<Any, Bitmap?>): FloatArray {
 //        var anc_enc = FloatArray(128)
 //
@@ -93,4 +95,3 @@ class MainActivity : AppCompatActivity() {
 //        model.close()
 //        return confidence
 //    }
-}
